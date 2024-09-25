@@ -1,5 +1,11 @@
 {{{ if posts.display_moderator_tools }}}
 <li>
+	<a class="dropdown-item rounded-1 d-flex align-items-center gap-2" component="post/endorse" role="menuitem" href="#">
+		<span class="menu-icon"><i class="fa fa-fw text-secondary fa-"></i></span> Endorse
+	</a>
+</li>
+
+<li>
 	<a class="dropdown-item rounded-1 d-flex align-items-center gap-2" component="post/edit" role="menuitem" href="#">
 		<span class="menu-icon"><i class="fa fa-fw text-secondary fa-pencil"></i></span> [[topic:edit]]
 	</a>
@@ -89,6 +95,8 @@
 			<i class="fa fa-fw text-secondary fa-link"></i> [[topic:copy-permalink]]
 		</a>
 	</li>
+
+	
 
 	{{{ if postSharing.length }}}
 	{{{ if config.loggedIn }}}<li class="dropdown-divider"></li>{{{ end }}}
