@@ -1,7 +1,7 @@
 {{{ if posts.display_moderator_tools }}}
 <li>
 	<a class="dropdown-item rounded-1 d-flex align-items-center gap-2" component="post/endorse" role="menuitem" href="#">
-		<span class="menu-icon"><i class="fa fa-fw text-secondary fa-"></i></span> Endorse
+		<span class="menu-icon"><i class="fa fa-fw fa-check text-secondary fa-"></i></span> Endorse
 	</a>
 </li>
 
