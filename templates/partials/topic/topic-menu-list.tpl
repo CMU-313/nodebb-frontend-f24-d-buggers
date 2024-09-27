@@ -1,6 +1,6 @@
 {{{ if privileges.editable }}}
 <li>
-	<a component="" href="#" class="dropdown-item rounded-1 d-flex align-items-center gap-2" role="menuitem"><i class="fa fa-fw fa- text-secondary"></i>Endorse Topic</a>
+	<a component="topic/endorse" href="#" class="dropdown-item rounded-1 d-flex align-items-center gap-2" role="menuitem"><i class="fa fa-fw fa-star text-secondary"></i> Endorse Topic</a>
 </li>
 
 <li {{{ if locked }}}hidden{{{ end }}}>
