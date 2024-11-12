@@ -1,9 +1,5 @@
 {{{ if posts.display_moderator_tools }}}
-<li>
-	<a class="dropdown-item rounded-1 d-flex align-items-center gap-2" component="post/endorse" role="menuitem" href="#">
-		<span class="menu-icon"><i class="fa fa-fw text-secondary fa-thumbs-up"></i></span> Endorse
-	</a>
-</li>
+
 
 <li>
 	<a class="dropdown-item rounded-1 d-flex align-items-center gap-2" component="post/edit" role="menuitem" href="#">
@@ -78,6 +74,11 @@
 	{{{ end }}}
 
 	{{{ if config.loggedIn }}}
+	<li>
+	<a class="dropdown-item rounded-1 d-flex align-items-center gap-2" component="post/endorse" role="menuitem" href="#">
+		<span class="menu-icon"><i class="fa fa-fw text-secondary fa-thumbs-up"></i></span> Endorse
+	</a>
+	</li>
 	<li>
 		<a class="dropdown-item rounded-1 d-flex align-items-center gap-2" component="post/bookmark" role="menuitem" href="#" data-bookmarked="{posts.bookmarked}">
 			<span class="menu-icon">

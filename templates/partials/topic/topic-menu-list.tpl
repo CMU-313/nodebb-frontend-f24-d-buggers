@@ -1,8 +1,8 @@
-{{{ if privileges.editable }}}
 <li>
 	<a component="" href="#" class="dropdown-item rounded-1 d-flex align-items-center gap-2" role="menuitem"><i class="fa fa-fw text-secondary fa-thumbs-up"></i>Endorse Topic</a>
 </li>
 
+{{{ if privileges.editable }}}
 <li {{{ if locked }}}hidden{{{ end }}}>
 	<a component="topic/lock" href="#" class="dropdown-item rounded-1 d-flex align-items-center gap-2 {{{ if locked }}}hidden{{{ end }}}" role="menuitem"><i class="fa fa-fw fa-lock text-secondary"></i> [[topic:thread-tools.lock]]</a>
 </li>
